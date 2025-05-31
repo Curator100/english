@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Word Meanings & Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Vocabulary Vault 📚</h1>
+    <p>Learn words one by one, then test your knowledge!</p>
+  </header>
+
+  <div class="container">
+
+    <!-- DISPLAY AREA FOR SINGLE WORD -->
+    <div id="word-section" class="word-container">
+      <div class="word" id="display-word">Loading...</div>
+      <div class="meaning" id="display-meaning">Loading...</div>
+      <div class="sentence" id="display-sentence">Loading...</div>
+      <button id="next-button" class="button">Next Word</button>
+    </div>
+
+    <!-- QUIZ SECTION (initially hidden) -->
+    <div id="quiz-section" class="quiz-container hidden">
+      <div class="meaning-quiz" id="quiz-meaning">Meaning in Bengali appears here</div>
+      <div class="options" id="quiz-options">
+        <!-- Option buttons will be inserted dynamically -->
+      </div>
+      <div class="result" id="quiz-result"></div>
+      <button id="quiz-next" class="button hidden">Continue</button>
+    </div>
+
+  </div>
+
+  <!-- Link to JS at the end of body -->
+  <script src="script.js"></script>
+</body>
+</html>
