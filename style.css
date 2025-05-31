@@ -1,6 +1,6 @@
 /* style.css */
 
-/* Import a Google Font for a modern, Gen Z-friendly look */
+/* Import a Google Font for a modern, Gen Z–friendly look */
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
 
 :root {
@@ -115,11 +115,15 @@ h2 {
 .story h3 {
   margin-bottom: 0.8rem;
   color: var(--primary-color);
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
 .story p {
   font-size: 1rem;
   line-height: 1.5;
+}
+.story span.vocab {
+  color: var(--accent-color);
+  font-weight: 600;
 }
 
 /* WORD DISPLAY AREA */
